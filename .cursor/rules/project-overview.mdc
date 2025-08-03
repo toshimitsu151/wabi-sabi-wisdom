@@ -1,0 +1,30 @@
+# Wabi-Sabi-Wisdom Project Overview
+
+## Core Concept
+Wabi-Sabi-Wisdom is an AI-powered wisdom application that delivers personalized Japanese classical quotes with AI-generated characters and voice synthesis. The app provides "intellectual and serene experiences" through psychological profiling and narrative-driven content delivery.
+
+## Key Principles
+- **一期一会 (Ichigo Ichie)**: Each experience is unique and unrepeatable
+- **知的で静寂な体験**: Intellectual and serene user experience
+- **心理的パーソナライゼーション**: Psychological personalization based on user profiling
+- **日本文化の現代的解釈**: Modern interpretation of Japanese classical wisdom
+
+## Target Audience
+- Self-improvement and mindfulness enthusiasts
+- Global users interested in Japanese culture and philosophy
+- Users seeking deep, meaningful content experiences
+
+## Business Model
+- Subscription-based revenue (Lite: $4.99, Standard: $9.99, Premium: $19.99)
+- Secondary licensing for commercial use
+- Enterprise API services
+
+## Success Metrics
+- MAU targets: 1K (MVP) → 10K (Phase 2) → 100K (Phase 3)
+- Subscription conversion rate: 5%+
+- Content delivery speed: <3 seconds (cached)
+---
+description: Wabi-Sabi-Wisdom project overview and core concepts
+globs: ["**/*"]
+alwaysApply: true
+---

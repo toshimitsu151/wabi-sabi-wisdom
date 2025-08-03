@@ -1,0 +1,53 @@
+# Coding Standards & Best Practices
+
+## TypeScript/JavaScript Standards
+- **Naming**: Use camelCase for variables/functions, PascalCase for components/classes
+- **Type Safety**: Always use TypeScript with strict mode enabled
+- **Imports**: Use named imports over default imports when possible
+- **Error Handling**: Implement proper error boundaries and try-catch blocks
+- **Comments**: Use JSDoc for complex functions and API documentation
+
+## React/Next.js Standards
+- **Components**: Use functional components with hooks
+- **Props**: Define interfaces for all component props
+- **State Management**: Use Zustand for global state, React state for local state
+- **Performance**: Implement React.memo and useMemo for expensive operations
+- **Accessibility**: Include proper ARIA labels and semantic HTML
+
+## Python Standards (AI Backend)
+- **Style**: Follow PEP 8 guidelines
+- **Type Hints**: Use type hints for all function parameters and return values
+- **Documentation**: Use docstrings for all functions and classes
+- **Error Handling**: Use custom exceptions and proper logging
+- **Testing**: Maintain 80%+ test coverage for critical functions
+
+## Database Standards
+- **Schema**: Use migrations for all database changes
+- **Queries**: Use parameterized queries to prevent SQL injection
+- **Indexing**: Create appropriate indexes for frequently queried columns
+- **Backup**: Implement automated backup strategies
+
+## API Standards
+- **RESTful**: Follow REST principles for API design
+- **Versioning**: Use semantic versioning for API endpoints
+- **Documentation**: Maintain OpenAPI/Swagger documentation
+- **Rate Limiting**: Implement rate limiting for all public endpoints
+- **Authentication**: Use JWT tokens with proper expiration
+
+## Security Standards
+- **Input Validation**: Validate all user inputs
+- **Authentication**: Implement secure authentication flows
+- **Data Encryption**: Encrypt sensitive data at rest and in transit
+- **CORS**: Configure CORS properly for cross-origin requests
+- **Dependencies**: Regularly update dependencies and scan for vulnerabilities
+
+## Performance Standards
+- **Caching**: Implement appropriate caching strategies
+- **Optimization**: Optimize images and assets for web delivery
+- **Monitoring**: Use performance monitoring tools
+- **CDN**: Utilize CDN for static assets
+---
+description: Coding standards and best practices
+globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "**/*.py", "**/*.json"]
+alwaysApply: true
+---

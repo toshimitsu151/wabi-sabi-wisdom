@@ -1,0 +1,48 @@
+# AI Content Generation & Quality Guidelines
+
+## Content Quality Standards
+- **Accuracy**: All quotes must be from verified Japanese classical sources
+- **Cultural Sensitivity**: Respect Japanese cultural context and traditions
+- **Translation Quality**: Ensure poetic and meaningful English translations
+- **Consistency**: Maintain consistent tone and style across all content
+
+## Psychological Profiling Guidelines
+- **Privacy**: Ensure user psychological data is encrypted and anonymized
+- **Accuracy**: Validate psychological assessment questions with research
+- **Ethics**: Avoid harmful or discriminatory content based on psychological profiles
+- **Transparency**: Clearly explain how psychological data is used
+
+## Character Generation Standards
+- **Style Consistency**: Maintain anime-style aesthetic with Japanese traditional elements
+- **Cultural Appropriateness**: Ensure characters respect Japanese cultural norms
+- **Diversity**: Include diverse character representations while maintaining authenticity
+- **Quality Control**: Implement human review for character generation outputs
+
+## Voice Synthesis Guidelines
+- **Emotional Matching**: Ensure voice tone matches character personality and quote emotion
+- **Clarity**: Maintain clear pronunciation and appropriate pacing
+- **Cultural Sensitivity**: Use appropriate voice characteristics for Japanese cultural context
+- **Quality Assurance**: Regular testing of voice synthesis quality
+
+## Content Moderation
+- **Safety Filters**: Implement content safety filters for all AI-generated content
+- **Human Review**: Critical content should undergo human review before delivery
+- **User Feedback**: Collect and incorporate user feedback for content improvement
+- **Compliance**: Ensure compliance with platform guidelines and regulations
+
+## Source Material Management
+- **Verification**: All Japanese classical sources must be verified and documented
+- **Attribution**: Proper attribution for all quotes and sources
+- **Copyright**: Ensure all content is in public domain or properly licensed
+- **Database**: Maintain comprehensive database of sources and translations
+
+## Content Personalization
+- **Relevance**: Ensure content is relevant to user's psychological profile
+- **Variety**: Provide diverse content while maintaining personalization
+- **Learning**: Continuously improve personalization algorithms based on user feedback
+- **Ethics**: Avoid manipulation or harmful personalization practices
+---
+description: AI content generation and quality assurance guidelines
+globs: ["**/ai/**/*", "**/content/**/*", "**/prompts/**/*", "**/quality/**/*", "**/moderation/**/*"]
+alwaysApply: false
+---

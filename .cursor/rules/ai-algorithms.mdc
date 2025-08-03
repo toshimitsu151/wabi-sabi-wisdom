@@ -1,0 +1,48 @@
+# AI Algorithms & Core Functionality
+
+## Psychological Profiling Engine
+- **Input**: 10-question psychological assessment
+  - Q1-Q3: Binary (0/1) responses
+  - Q4-Q10: Likert scale (1-5) responses
+- **Output**: 10-dimensional psychological vector
+- **Purpose**: User personality mapping for content personalization
+
+## Narrative Generation Engine
+- **Input**: Psychological vector (10 dimensions)
+- **Process**: Vector → Psychological factors → Category mapping → Slot extraction → Template filling
+- **Output**: Natural language personality description
+- **Template**: "This user [Slot1], and tends to [Slot2]. They are [Slot3] and [Slot4]."
+
+## Quote Selection Algorithm
+- **Input**: Narrative + Psychological profile
+- **Process**: 4-stage output generation
+  1. Poetic English translation
+  2. Original Japanese text
+  3. Source information (author, title, year)
+  4. Meaning and context explanation
+- **Output**: JSON structure with quote data and metadata
+
+## Character Generation Algorithm
+- **Input**: Quote data + Narrative
+- **Process**: Theme extraction → Symbolic mapping → Prompt composition
+- **Output**: Anime-style character image (512x512 or 768x768)
+- **Style**: Japanese traditional aesthetic with modern anime elements
+
+## Voice Synthesis Algorithm
+- **Input**: Quote + Character profile
+- **Process**: Voice prompt construction → TTS API call → Audio generation
+- **Output**: Character-matched voice narration
+- **Features**: Emotion, tone, tempo, and style matching
+
+## Content Delivery Flow
+1. User psychological vector analysis
+2. Narrative generation
+3. Quote selection and translation
+4. Character image generation (async)
+5. Voice synthesis (async)
+6. Content delivery with caching
+---
+description: AI algorithms and core functionality specifications
+globs: ["**/ai/**/*", "**/algorithms/**/*", "**/langgraph/**/*", "**/prompts/**/*", "**/models/**/*"]
+alwaysApply: false
+---

@@ -1,0 +1,63 @@
+# Business Requirements & Monetization Strategy
+
+## Subscription Tiers
+### Lite Plan ($4.99/month)
+- 4 quotes per month with images and voice
+- Basic psychological profiling
+- Standard content delivery
+
+### Standard Plan ($9.99/month)
+- 12 quotes per month
+- Enhanced psychological profiling
+- Priority content delivery
+- Basic analytics
+
+### Premium Plan ($19.99/month)
+- Daily quotes
+- Commercial voice licensing
+- Advanced analytics
+- Priority support
+- Exclusive content
+
+### Enterprise Plan (Custom pricing)
+- API access
+- Commercial image licensing
+- Custom integrations
+- Dedicated support
+- White-label options
+
+## Revenue Streams
+- **Primary**: Subscription revenue
+- **Secondary**: Commercial licensing fees
+- **Tertiary**: Enterprise API services
+- **Future**: NFT marketplace, merchandise
+
+## Cost Management
+- **AI Generation**: Optimize with batch processing and caching
+- **Infrastructure**: Use serverless and spot instances
+- **Content**: Leverage public domain sources
+- **Marketing**: Focus on organic growth and community building
+
+## Market Positioning
+- **Target Market**: Global mindfulness and self-improvement market
+- **Competitive Advantage**: Unique AI-generated characters with Japanese wisdom
+- **Differentiation**: Cultural authenticity and personalization
+- **Value Proposition**: Deep, meaningful content experiences
+
+## Success Metrics
+- **User Acquisition**: MAU growth targets
+- **Retention**: Monthly and annual retention rates
+- **Revenue**: ARPU and LTV optimization
+- **Quality**: User satisfaction and content engagement
+- **Efficiency**: Cost per user and operational efficiency
+
+## Risk Management
+- **Technical**: AI generation cost control and quality assurance
+- **Legal**: Copyright compliance and licensing management
+- **Market**: Competition and market saturation risks
+- **Operational**: Scalability and performance challenges
+---
+description: Business requirements and monetization strategy
+globs: ["**/*"]
+alwaysApply: true
+---

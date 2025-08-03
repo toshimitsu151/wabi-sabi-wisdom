@@ -1,0 +1,67 @@
+# Development Phases & Roadmap
+
+## Phase 0: MVP Development (0-3 months)
+### Goals
+- Launch Next.js PWA MVP
+- Establish LangGraph prompt generation algorithm
+- User validation and revenue testing with Stripe
+
+### Key Deliverables
+- Basic user authentication (Magic Link)
+- 10-question psychological assessment
+- Weekly quote delivery system
+- AI image and voice generation
+- Basic subscription model
+
+### Success Criteria
+- MAU: 1,000 users
+- Subscription conversion: 5%+
+- Content delivery: <3 seconds (cached)
+
+## Phase 1: Foundation Strengthening (3-6 months)
+### Goals
+- Improve user retention
+- Enhance psychological profiling accuracy
+- Optimize costs and performance
+
+### Key Deliverables
+- Re-assessment functionality
+- Flexible delivery frequency (up to 3x/week)
+- Vector DB integration (Pinecone)
+- Batch processing and caching optimization
+- ClickHouse analytics integration
+
+## Phase 2: Native Expansion (6-12 months)
+### Goals
+- Expand user base through native apps
+- Increase ARPU with native-only features
+
+### Key Deliverables
+- iOS/Android native apps (Expo/React Native)
+- Offline playback functionality
+- Widget features
+- Long-form BGM (Premium only)
+- Multi-language support
+
+## Phase 3: Diversification (12+ months)
+### Goals
+- Revenue diversification
+- Long-term user retention maximization
+
+### Key Deliverables
+- External API publication
+- Specialized services (meditation, mental health)
+- Enterprise features
+- AI model fine-tuning
+- Advanced analytics and personalization
+
+## Technical Milestones
+- **Phase 0**: Core AI algorithms and basic UI
+- **Phase 1**: Performance optimization and analytics
+- **Phase 2**: Native platform expansion
+- **Phase 3**: Advanced AI and enterprise features
+---
+description: Development phases and roadmap guidelines
+globs: ["**/*"]
+alwaysApply: true
+---

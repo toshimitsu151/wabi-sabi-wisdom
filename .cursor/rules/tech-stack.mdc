@@ -1,0 +1,38 @@
+# Technology Stack & Architecture
+
+## Frontend Stack
+- **Framework**: Next.js 13 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS + shadcn/ui
+- **State Management**: Zustand
+- **Platform**: PWA (Progressive Web App) first, native later
+
+## Backend Stack
+- **Edge Runtime**: Cloudflare Workers
+- **AI Processing**: Python 3.12 + LangGraph 0.9 + FastAPI
+- **Database**: PostgreSQL 16 Serverless (Neon/Supabase)
+- **Vector DB**: Pinecone Serverless v3
+- **Analytics**: ClickHouse Cloud
+
+## AI Generation Stack
+- **LLM**: Claude-3 / Gemini
+- **Image Generation**: Stable Diffusion XL (InvokeAI)
+- **Voice Synthesis**: ElevenLabs Professional API
+- **GPU Infrastructure**: Modal (spot instances for cost optimization)
+
+## Infrastructure
+- **Storage**: Cloudflare R2 + CDN
+- **Authentication**: Supabase Auth (Magic Link)
+- **Payment**: Stripe (Web) → Paddle (international VAT)
+- **Deployment**: Vercel (Frontend) + Cloudflare (Backend)
+
+## Architecture Principles
+- **Edge-first**: Low latency content delivery
+- **Cost optimization**: Batch processing and caching
+- **Scalability**: Serverless architecture
+- **Security**: Data encryption and privacy compliance
+---
+description: Technology stack and architecture guidelines
+globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "**/*.py", "**/*.json", "**/*.md"]
+alwaysApply: true
+---
