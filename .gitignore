@@ -17,3 +17,6 @@ wheels/
 # Python cache
 __pycache__/
 *.pyc
+
+# Cursor files
+.cursor/
