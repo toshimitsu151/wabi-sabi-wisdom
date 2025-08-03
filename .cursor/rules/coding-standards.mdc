@@ -1,51 +1,59 @@
-# Coding Standards & Best Practices
+# コーディング規約とベストプラクティス
 
-## TypeScript/JavaScript Standards
-- **Naming**: Use camelCase for variables/functions, PascalCase for components/classes
-- **Type Safety**: Always use TypeScript with strict mode enabled
-- **Imports**: Use named imports over default imports when possible
-- **Error Handling**: Implement proper error boundaries and try-catch blocks
-- **Comments**: Use JSDoc for complex functions and API documentation
+## TypeScript/JavaScript規約
+- **命名**: 変数/関数はcamelCase、コンポーネント/クラスはPascalCase
+- **型安全性**: TypeScriptのstrict modeを常に有効化
+- **インポート**: 可能な限りnamed importを使用
+- **エラーハンドリング**: 適切なerror boundaryとtry-catchブロックを実装
+- **コメント**: 複雑な関数とAPIドキュメントにはJSDocを使用
 
-## React/Next.js Standards
-- **Components**: Use functional components with hooks
-- **Props**: Define interfaces for all component props
-- **State Management**: Use Zustand for global state, React state for local state
-- **Performance**: Implement React.memo and useMemo for expensive operations
-- **Accessibility**: Include proper ARIA labels and semantic HTML
+## React/Next.js規約
+- **コンポーネント**: フックを使用した関数コンポーネント
+- **Props**: すべてのコンポーネントpropsにインターフェースを定義
+- **状態管理**: グローバル状態はZustand、ローカル状態はReact state
+- **パフォーマンス**: 高コストな操作にはReact.memoとuseMemoを実装
+- **アクセシビリティ**: 適切なARIAラベルとセマンティックHTMLを含める
 
-## Python Standards (AI Backend)
-- **Style**: Follow PEP 8 guidelines
-- **Type Hints**: Use type hints for all function parameters and return values
-- **Documentation**: Use docstrings for all functions and classes
-- **Error Handling**: Use custom exceptions and proper logging
-- **Testing**: Maintain 80%+ test coverage for critical functions
+## Python規約（AIバックエンド）
+- **スタイル**: PEP 8ガイドラインに従う
+- **型ヒント**: すべての関数パラメータと戻り値に型ヒントを使用
+- **ドキュメント**: すべての関数とクラスにdocstringを使用
+- **エラーハンドリング**: カスタム例外と適切なログ記録を使用
+- **テスト**: 重要な関数の80%以上のテストカバレッジを維持
 
-## Database Standards
-- **Schema**: Use migrations for all database changes
-- **Queries**: Use parameterized queries to prevent SQL injection
-- **Indexing**: Create appropriate indexes for frequently queried columns
-- **Backup**: Implement automated backup strategies
+## データベース規約
+- **スキーマ**: すべてのデータベース変更にマイグレーションを使用
+- **クエリ**: SQLインジェクションを防ぐためにパラメータ化クエリを使用
+- **インデックス**: 頻繁にクエリされるカラムに適切なインデックスを作成
+- **バックアップ**: 自動化されたバックアップ戦略を実装
 
-## API Standards
-- **RESTful**: Follow REST principles for API design
-- **Versioning**: Use semantic versioning for API endpoints
-- **Documentation**: Maintain OpenAPI/Swagger documentation
-- **Rate Limiting**: Implement rate limiting for all public endpoints
-- **Authentication**: Use JWT tokens with proper expiration
+## API規約
+- **RESTful**: API設計にREST原則に従う
+- **バージョニング**: APIエンドポイントにセマンティックバージョニングを使用
+- **ドキュメント**: OpenAPI/Swaggerドキュメントを維持
+- **レート制限**: すべてのパブリックエンドポイントにレート制限を実装
+- **認証**: 適切な有効期限を持つJWTトークンを使用
 
-## Security Standards
-- **Input Validation**: Validate all user inputs
-- **Authentication**: Implement secure authentication flows
-- **Data Encryption**: Encrypt sensitive data at rest and in transit
-- **CORS**: Configure CORS properly for cross-origin requests
-- **Dependencies**: Regularly update dependencies and scan for vulnerabilities
+## セキュリティ規約
+- **入力検証**: すべてのユーザー入力を検証
+- **認証**: セキュアな認証フローを実装
+- **データ暗号化**: 保存時と転送時の機密データを暗号化
+- **CORS**: クロスオリジンリクエスト用にCORSを適切に設定
+- **依存関係**: 依存関係を定期的に更新し、脆弱性をスキャン
 
-## Performance Standards
-- **Caching**: Implement appropriate caching strategies
-- **Optimization**: Optimize images and assets for web delivery
-- **Monitoring**: Use performance monitoring tools
-- **CDN**: Utilize CDN for static assets
+## パフォーマンス規約
+- **キャッシュ**: 適切なキャッシュ戦略を実装
+- **最適化**: 画像とアセットをWeb配信用に最適化
+- **モニタリング**: パフォーマンス監視ツールを使用
+- **CDN**: 静的アセットにCDNを活用
+
+## 日本語表記規約
+- **コミットメッセージ**: 原則日本語で記述（例：「機能追加: ユーザー認証システムを実装」）
+- **コメント**: コードコメントは日本語で記述
+- **変数名・関数名**: 英語を使用（技術的な理由）
+- **ドキュメント**: README、API仕様書、技術ドキュメントは日本語を優先
+- **エラーメッセージ**: ユーザー向けエラーメッセージは日本語で表示
+- **ログメッセージ**: 開発者向けログは日本語で記録
 ---
 description: Coding standards and best practices
 globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "**/*.py", "**/*.json"]

@@ -1,114 +1,114 @@
 # Wabi-Sabi-Wisdom
 
-AI-powered wisdom application that delivers personalized Japanese classical quotes with AI-generated characters and voice synthesis.
+AIが生成するキャラクターと音声合成により、パーソナライズされた日本の古典金言を配信するAI駆動の知恵アプリケーション。
 
-## 🌟 Concept
+## 🌟 コンセプト
 
-Wabi-Sabi-Wisdom provides "intellectual and serene experiences" through psychological profiling and narrative-driven content delivery. Each experience is unique and unrepeatable (一期一会 - Ichigo Ichie).
+Wabi-Sabi-Wisdomは、心理的プロファイリングとナラティブ駆動のコンテンツ配信により「知的で静寂な体験」を提供します。各体験は唯一無二で再現不可能（一期一会 - Ichigo Ichie）です。
 
-## 🚀 Features
+## 🚀 機能
 
-- **Psychological Profiling**: 10-question assessment for personalized content
-- **AI-Generated Characters**: Unique anime-style characters for each quote
-- **Voice Synthesis**: Character-matched voice narration
-- **Japanese Classical Wisdom**: Curated quotes from Aozora Bunko
-- **Global Audience**: Multi-language support for international users
+- **心理的プロファイリング**: パーソナライズされたコンテンツのための10問診断
+- **AI生成キャラクター**: 各金言に合わせた唯一無二のアニメ風キャラクター
+- **音声合成**: キャラクターに合致した音声ナレーション
+- **日本の古典知恵**: 青空文庫から厳選された金言
+- **グローバル対応**: 国際ユーザー向けの多言語サポート
 
-## 🛠️ Tech Stack
+## 🛠️ 技術スタック
 
-### Frontend
-- **Next.js 13** (App Router) + **TypeScript**
+### フロントエンド
+- **Next.js 13**（App Router）+ **TypeScript**
 - **Tailwind CSS** + **shadcn/ui**
-- **PWA** (Progressive Web App)
+- **PWA**（Progressive Web App）
 
-### Backend
-- **Supabase** (PostgreSQL + Auth + Edge Functions)
-- **Python 3.12** + **LangGraph** (AI processing)
-- **pgvector** (Vector search)
+### バックエンド
+- **Supabase**（PostgreSQL + Auth + Edge Functions）
+- **Python 3.12** + **LangGraph**（AI処理）
+- **pgvector**（ベクトル検索）
 
-### AI Generation
-- **Stable Diffusion XL** (Image generation)
-- **ElevenLabs** (Voice synthesis)
-- **Claude-3/Gemini** (LLM processing)
+### AI生成
+- **Stable Diffusion XL**（画像生成）
+- **ElevenLabs**（音声合成）
+- **Claude-3/Gemini**（LLM処理）
 
-## 📦 Installation
+## 📦 インストール
 
-### Prerequisites
+### 前提条件
 - Node.js 18+
 - Python 3.12+
-- uv (Python package manager)
+- uv（Pythonパッケージマネージャー）
 
-### Setup
+### セットアップ
 
-1. **Clone the repository**
+1. **リポジトリをクローン**
 ```bash
 git clone https://github.com/toshimitsu151/wabi-sabi-wisdom.git
 cd wabi-sabi-wisdom
 ```
 
-2. **Install Python dependencies**
+2. **Python依存関係をインストール**
 ```bash
 uv sync
 ```
 
-3. **Set up environment variables**
+3. **環境変数を設定**
 ```bash
 cp .env.example .env
-# Edit .env with your Supabase credentials
+# .envファイルにSupabase認証情報を編集
 ```
 
-4. **Test Supabase connection**
+4. **Supabase接続をテスト**
 ```bash
 uv run python scripts/test_supabase_connection.py
 ```
 
-## 🗂️ Project Structure
+## 🗂️ プロジェクト構造
 
 ```
 Wabi-Sabi-Wisdom/
-├── .cursor/rules/          # Cursor IDE rules
-├── docs/                   # Project documentation
+├── .cursor/rules/          # Cursor IDEルール
+├── docs/                   # プロジェクトドキュメント
 ├── scripts/
-│   ├── aozora/            # Aozora Bunko data processing
-│   ├── utils/             # Utility functions
-│   └── test_*.py          # Test scripts
-├── pyproject.toml         # Python project config
-└── uv.lock               # Python dependencies lock
+│   ├── aozora/            # 青空文庫データ処理
+│   ├── utils/             # ユーティリティ関数
+│   └── test_*.py          # テストスクリプト
+├── pyproject.toml         # Pythonプロジェクト設定
+└── uv.lock               # Python依存関係ロック
 ```
 
-## 🚦 Development Phases
+## 🚦 開発フェーズ
 
-### Phase 0 (MVP) - 0-3 months
-- [x] Supabase setup and integration
-- [ ] Aozora Bunko data import
-- [ ] Basic quote delivery system
-- [ ] User authentication
+### Phase 0（MVP）- 0-3ヶ月
+- [x] Supabaseセットアップと統合
+- [ ] 青空文庫データインポート
+- [ ] 基本的な金言配信システム
+- [ ] ユーザー認証
 
-### Phase 1 (Foundation) - 3-6 months
-- [ ] Psychological profiling enhancement
-- [ ] AI character generation
-- [ ] Voice synthesis integration
+### Phase 1（基盤強化）- 3-6ヶ月
+- [ ] 心理的プロファイリング強化
+- [ ] AIキャラクター生成
+- [ ] 音声合成統合
 
-### Phase 2 (Native) - 6-12 months
-- [ ] iOS/Android native apps
-- [ ] Advanced features
+### Phase 2（ネイティブ展開）- 6-12ヶ月
+- [ ] iOS/Androidネイティブアプリ
+- [ ] 高度な機能
 
-## 📄 License
+## 📄 ライセンス
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+このプロジェクトはMITライセンスの下で公開されています - 詳細は[LICENSE](LICENSE)ファイルを参照してください。
 
-## 🤝 Contributing
+## 🤝 コントリビューション
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. リポジトリをフォーク
+2. 機能ブランチを作成（`git checkout -b feature/amazing-feature`）
+3. 変更をコミット（`git commit -m '機能追加: 素晴らしい機能を追加'`）
+4. ブランチにプッシュ（`git push origin feature/amazing-feature`）
+5. プルリクエストを作成
 
-## 📞 Support
+## 📞 サポート
 
-For support and questions, please open an issue on GitHub.
+サポートや質問については、GitHubでissueを作成してください。
 
 ---
 
-**Wabi-Sabi-Wisdom** - Finding beauty in imperfection and wisdom in classical Japanese literature.
+**Wabi-Sabi-Wisdom** - 不完全さの中に美を見出し、日本の古典文学から知恵を見つける。
